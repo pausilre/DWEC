@@ -15,7 +15,5 @@ async function comprobarPin(e){
             body:'PIN='+e.target.value
         }
         );
-
-            console.log(peticion);
     }
 }
